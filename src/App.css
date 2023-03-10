@@ -1,7 +1,63 @@
+body {
+  background-color: whitesmoke;
+}
+
 .App {
   text-align: center;
 }
+.my-navbar {
+  background-color: #17a2b8;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
+.navbar-brand {
+  color: #fff !important;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.navbar-nav {
+  margin-left: 57%; /* Hace que los links estén a la derecha */
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+/* Estilos para el botón de la Navbar */
+.navbar-toggler {
+  border: none; /* Quita el borde */
+  outline: none; /* Quita el contorno al hacer click */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Color del icono */
+  border-radius: 5px; /* Da forma al botón */
+}
+.cart-widget{
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 80px;
+}
+.cart-widget svg {
+  margin-left: 10px;
+}
+.cart-widget span{
+  color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
